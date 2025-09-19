@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "ba-a-kgatla-foods-6c635-41b27",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
